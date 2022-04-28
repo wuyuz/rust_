@@ -1,0 +1,17 @@
+[package]
+name = "base-kn"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = "0.19"
+
+[[example]]
+name="first-look"
+path="example/first_look.rs"
+
+[[example]]
+name="yew-test"
+path="example/yew.rs"
