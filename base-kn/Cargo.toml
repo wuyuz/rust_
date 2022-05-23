@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 yew = "0.19"
+rand = "0.8.4"
+
 
 [[example]]
 name="first-look"
@@ -15,3 +17,31 @@ path="example/first_look.rs"
 [[example]]
 name="yew-test"
 path="example/yew.rs"
+
+[[example]]
+name="owner"
+path="example/ownership.rs"
+
+[[example]]
+name="borrow"
+path="example/borrow.rs"
+
+[[example]]
+name="string"
+path="example/strings.rs"
+
+[[example]]
+name="pointer"
+path="example/pointer.rs"
+
+[[example]]
+name="closer"
+path="example/closer.rs"
+
+[[example]]
+name="iterator"
+path="example/iterator.rs"
+
+[[example]]
+name="newtype"
+path="example/newtype.rs"
